@@ -1,0 +1,23 @@
+.black{
+    color: black!important;
+    /*background-color: yellow;*/
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.red{
+    color: yellow!important;
+    /*background-color: yellow;*/
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.haha{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}

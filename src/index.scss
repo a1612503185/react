@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  font-size: 0.3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+  .main{
+      width: 100%;
+      flex: 1;
+      background-color: white;
+  }
+
+  .main-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+
+  }
+
+  .tabber{
+      height: 1rem;
+      background-color: beige;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+
+      li{
+        display: flex;
+
+        span{
+          padding-top: 0.1rem;
+          display: block;
+          text-align: center;
+        }
+      }
+
+
+  }
+  .active{
+    color: red;
+  }
+}
+
+.list-li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  text-align: center;
+
+
+}
+
+
